@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="pub-id" version="3.0" xml:lang="en-US" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <dc:title id="title">TEST for JXL</dc:title>
+        
+        <dc:creator id="creator1">Toshiaki Koike</dc:creator>
+        <meta refines="#creator1" property="role" scheme="marc:relators" id="role1">pht</meta>
+        <meta refines="#creator1" property="display-seq">1</meta>
+        
+        <dc:language>en-US</dc:language>
+        <dc:identifier id="pub-id">urn:uuid:87F2524C-00D5-11F1-8920-E4CEBB62906E</dc:identifier>
+        <dc:date>2026-02-03T07:54:13Z</dc:date>
+        <meta property="dcterms:modified">2026-02-03T09:33:54Z</meta>
+        <meta name="cover" content="my-cover-image" />
+        <meta property="ibooks:respect-image-size-class">gaiji</meta>
+        <meta property="ibooks:specified-fonts">true</meta>
+
+    </metadata>
+    <manifest>
+        <item id="TOC" href="toc.xhtml" properties="nav" media-type="application/xhtml+xml" />
+        <item id="XHTML0000" href="text/book_0000.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0001" href="text/book_0001.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0002" href="text/book_0002.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0003" href="text/book_0003.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0004" href="text/book_0004.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0005" href="text/book_0005.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0006" href="text/book_0006.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0007" href="text/book_0007.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0008" href="text/book_0008.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0009" href="text/book_0009.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0010" href="text/book_0010.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0011" href="text/book_0011.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0012" href="text/book_0012.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0013" href="text/book_0013.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0014" href="text/book_0014.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0015" href="text/book_0015.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0016" href="text/book_0016.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0017" href="text/book_0017.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0018" href="text/book_0018.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0019" href="text/book_0019.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0020" href="text/book_0020.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0021" href="text/book_0021.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0022" href="text/book_0022.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0023" href="text/book_0023.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0024" href="text/book_0024.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0025" href="text/book_0025.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0026" href="text/book_0026.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0027" href="text/book_0027.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0028" href="text/book_0028.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0029" href="text/book_0029.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0030" href="text/book_0030.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0031" href="text/book_0031.xhtml" media-type="application/xhtml+xml" />
+        <item id="ERR_MAGICK" href="images/err_magick.jpg" media-type="image/jpeg" />
+        <item id="ERR_CJXL" href="images/err_cjxl.jpg" media-type="image/jpeg" />
+        <item id="ERR_PHOTOSHOP" href="images/err_photoshop.jpg" media-type="image/jpeg" />
+        <item id="ERR_GIMP" href="images/err_gimp.jpg" media-type="image/jpeg" />
+        <item id="my-cover-image" href="images/cover.jpg" properties="cover-image" media-type="image/jpeg" />
+        <item id="IMG0001" href="images/png/image_0001.png" media-type="image/png" />
+        <item id="IMG0002" href="images/png/image_0002.png" media-type="image/png" />
+        <item id="IMG0003" href="images/png/image_0003.png" media-type="image/png" />
+        <item id="IMG0004" href="images/png/image_0004.png" media-type="image/png" />
+        <item id="IMG0005" href="images/png/image_0005.png" media-type="image/png" />
+        <item id="IMG0006" href="images/magick/image_0001_magick.jxl" media-type="image/jxl" fallback="ERR_MAGICK" />
+        <item id="IMG0007" href="images/magick/image_0002_magick.jxl" media-type="image/jxl" fallback="ERR_MAGICK" />
+        <item id="IMG0008" href="images/magick/image_0003_magick.jxl" media-type="image/jxl" fallback="ERR_MAGICK" />
+        <item id="IMG0009" href="images/magick/image_0004_magick.jxl" media-type="image/jxl" fallback="ERR_MAGICK" />
+        <item id="IMG0010" href="images/magick/image_0005_magick.jxl" media-type="image/jxl" fallback="ERR_MAGICK" />
+        <item id="IMG0011" href="images/cjxl/image_0001_cjxl.jxl" media-type="image/jxl" fallback="ERR_CJXL" />
+        <item id="IMG0012" href="images/cjxl/image_0002_cjxl.jxl" media-type="image/jxl" fallback="ERR_CJXL" />
+        <item id="IMG0013" href="images/cjxl/image_0003_cjxl.jxl" media-type="image/jxl" fallback="ERR_CJXL" />
+        <item id="IMG0014" href="images/cjxl/image_0004_cjxl.jxl" media-type="image/jxl" fallback="ERR_CJXL" />
+        <item id="IMG0015" href="images/cjxl/image_0005_cjxl.jxl" media-type="image/jxl" fallback="ERR_CJXL" />
+        <item id="IMG0016" href="images/photoshop/image_0001_photoshop.jxl" media-type="image/jxl" fallback="ERR_PHOTOSHOP" />
+        <item id="IMG0017" href="images/photoshop/image_0002_photoshop.jxl" media-type="image/jxl" fallback="ERR_PHOTOSHOP" />
+        <item id="IMG0018" href="images/photoshop/image_0003_photoshop.jxl" media-type="image/jxl" fallback="ERR_PHOTOSHOP" />
+        <item id="IMG0019" href="images/photoshop/image_0004_photoshop.jxl" media-type="image/jxl" fallback="ERR_PHOTOSHOP" />
+        <item id="IMG0020" href="images/photoshop/image_0005_photoshop.jxl" media-type="image/jxl" fallback="ERR_PHOTOSHOP" />
+        <item id="IMG0021" href="images/gimp/image_0001_gimp.jxl" media-type="image/jxl" fallback="ERR_GIMP" />
+        <item id="IMG0022" href="images/gimp/image_0002_gimp.jxl" media-type="image/jxl" fallback="ERR_GIMP" />
+        <item id="IMG0023" href="images/gimp/image_0003_gimp.jxl" media-type="image/jxl" fallback="ERR_GIMP" />
+        <item id="IMG0024" href="images/gimp/image_0004_gimp.jxl" media-type="image/jxl" fallback="ERR_GIMP" />
+        <item id="IMG0025" href="images/gimp/image_0005_gimp.jxl" media-type="image/jxl" fallback="ERR_GIMP" />
+        <item id="CSS1" href="styles/ebook_common.css" media-type="text/css" />
+        <item id="CSS2" href="styles/ebook_style.css" media-type="text/css" />
+        <item id="CSS4" href="styles/ebook_style_h.css" media-type="text/css" />
+    </manifest>
+    <spine page-progression-direction="ltr">
+        <itemref idref="XHTML0000" />
+        <itemref idref="XHTML0001" />
+        <itemref idref="XHTML0002" />
+        <itemref idref="XHTML0003" />
+        <itemref idref="XHTML0004" />
+        <itemref idref="XHTML0005" />
+        <itemref idref="XHTML0006" />
+        <itemref idref="XHTML0007" />
+        <itemref idref="XHTML0008" />
+        <itemref idref="XHTML0009" />
+        <itemref idref="XHTML0010" />
+        <itemref idref="XHTML0011" />
+        <itemref idref="XHTML0012" />
+        <itemref idref="XHTML0013" />
+        <itemref idref="XHTML0014" />
+        <itemref idref="XHTML0015" />
+        <itemref idref="XHTML0016" />
+        <itemref idref="XHTML0017" />
+        <itemref idref="XHTML0018" />
+        <itemref idref="XHTML0019" />
+        <itemref idref="XHTML0020" />
+        <itemref idref="XHTML0021" />
+        <itemref idref="XHTML0022" />
+        <itemref idref="XHTML0023" />
+        <itemref idref="XHTML0024" />
+        <itemref idref="XHTML0025" />
+        <itemref idref="XHTML0026" />
+        <itemref idref="XHTML0027" />
+        <itemref idref="XHTML0028" />
+        <itemref idref="XHTML0029" />
+        <itemref idref="XHTML0030" />
+        <itemref idref="XHTML0031" />
+    </spine>
+</package>
